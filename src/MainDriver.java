@@ -25,7 +25,7 @@ public class MainDriver {
         System.out.println("Search Time: " + (System.nanoTime() - start) + " ns");
 
         start = System.nanoTime();
-        array.deleteRecord(1);
+        array.deleteRecord(1); //This deletes the first patient but we had to do it to compare speed
         System.out.println("Delete Time: " + (System.nanoTime() - start) + " ns");
 
         start = System.nanoTime();
