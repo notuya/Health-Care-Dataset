@@ -66,7 +66,7 @@ public class MainDriver {
         System.out.println("Search Time: " + (System.nanoTime() - start) + " ns");
 
         start = System.nanoTime();
-        hash.deleteRecord(1);
+        hash.deleteRecord(1); //had to use delete to compare speed
         System.out.println("Delete Time: " + (System.nanoTime() - start) + " ns");
 
         start = System.nanoTime();
